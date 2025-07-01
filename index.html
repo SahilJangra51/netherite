@@ -5,7 +5,232 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GG Mouse Pro - Premium Code (India)</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        :root {
+    --neon-blue: #00f3ff;
+    --neon-orange: #ff6b00;
+    --dark-bg: #0a0a0a;
+    --card-bg: #141414;
+    --text-primary: #ffffff;
+    --text-secondary: #a0a0a0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--dark-bg);
+    color: var(--text-primary);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.logo-container {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+/* Main Content Styles */
+main {
+    flex: 1;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.india-exclusive {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+}
+
+.india-flag {
+    width: 24px;
+    height: auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(to right, var(--neon-blue), var(--neon-orange));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subheading {
+    color: var(--text-secondary);
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+/* Price Box Styles */
+.price-box {
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 20px rgba(0, 243, 255, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.price-box:hover {
+    box-shadow: 0 0 30px rgba(0, 243, 255, 0.2);
+}
+
+.price {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--neon-blue);
+    margin-bottom: 1.5rem;
+}
+
+.currency {
+    font-size: 2rem;
+    vertical-align: super;
+}
+
+.buy-button {
+    background: linear-gradient(45deg, var(--neon-blue), var(--neon-orange));
+    color: var(--text-primary);
+    border: none;
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.buy-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(0, 243, 255, 0.3);
+}
+
+.delivery-info {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+/* Trust Badge Styles */
+.trust-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+}
+
+.badge-icon {
+    width: 24px;
+    height: 24px;
+    background: var(--neon-blue);
+    border-radius: 50%;
+}
+
+/* Support Section Styles */
+.support-section {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.support-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+    color: var(--text-primary);
+    font-weight: 500;
+    transition: transform 0.3s ease;
+}
+
+.support-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.support-button.telegram {
+    background: #0088cc;
+}
+
+.support-button.whatsapp {
+    background: #25D366;
+}
+
+.support-button:hover {
+    transform: translateY(-2px);
+}
+
+/* Animations */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .price-box {
+        padding: 1.5rem;
+    }
+
+    .support-section {
+        flex-direction: column;
+    }
+
+    .support-button {
+        width: 100%;
+        justify-content: center;
+    }
+}
+    </style>
 </head>
 <body>
     <div class="container">
